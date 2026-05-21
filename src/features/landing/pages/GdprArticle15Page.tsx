@@ -464,7 +464,7 @@ const GdprArticle15Page = () => {
         <Paragraph>
           If you would like additional information regarding your specific
           account data or wish to exercise additional rights under GDPR, please
-          contact us again.
+          contact us.
         </Paragraph>
       </Container>
     </ThemeProvider>
