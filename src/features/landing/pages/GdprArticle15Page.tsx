@@ -265,9 +265,7 @@ const GdprArticle15Page = () => {
           <PartnerCategoryCard
             title="Survey and market research providers"
             partners={[
-              "Cint AB (Sweden)",
-              "Lucid Holdings, LLC / related exchange providers (United States)",
-              "P2Sample / related exchange providers (United States)",
+              "Cint AB (Sweden) — including Lucid and P2Sample, now part of Cint",
               "PureSpectrum Inc. (United States)",
               "CPX Research GmbH (Germany)",
               "Prime Insights Group LLC (United States)",
