@@ -23,6 +23,9 @@ const CustomerServicePage = lazy(
 const PrivacyPolicyPage = lazy(
   () => import("@/features/landing/pages/PrivacyPolicyPage"),
 );
+const GdprArticle15Page = lazy(
+  () => import("@/features/landing/pages/GdprArticle15Page"),
+);
 const RedirectPage = lazy(
   () => import("@/features/landing/pages/RedirectPage"),
 );
@@ -101,6 +104,7 @@ export const publicRoutes: RouteObject[] = [
   { path: "/cashback", element: <CashbackLandingPage /> },
   { path: "/kundtjanst", element: <CustomerServicePage /> },
   { path: "/privacy", element: <PrivacyPolicyPage /> },
+  { path: "/privacy/data-sharing", element: <GdprArticle15Page /> },
   {
     path: "/extension-activation",
     element: <CashbackExtensionActivationPage />,
