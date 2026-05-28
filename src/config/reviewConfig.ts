@@ -1,1 +1,1 @@
-export const isIosReview = true;
+export const isIosReview = false;
